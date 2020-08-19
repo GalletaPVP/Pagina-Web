@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="icon-menu"></label>
+        <nav class="menu">
+            <div class="seccion_logo">
+                <img src="img/Logo.png" alt="Logo del Tecnologico">
+                <p>Licenciado por MINEDU</p>
+            </div>
+            <ul class="Espacio">
+                <li><a href="index.html">INICIO</a></li>
+                <li class="submenu"><a href="#">PROGRAMA DE ESTUDIO<span class="icon-down-open"></span></a>
+                    <ul>
+                        <li><a href="perfil_profesional.html">PERFIL PROFESIONAL</a></li>
+                        <li><a href="campo_ocupacional.html">CAMPO OCUPACIONAL</a></li>
+                        <li><a href="malla_curricular.html">MALLA CURRICULAR</a></li>
+                    </ul>
+                </li>
+                <li><a href="laboratorio.html">LABORATORIO</a></li>
+                <li><a href="horario.html">HORARIO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+            <button class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span><span><i class="fas fa-moon"></i></span>
+            </button>
+        </nav>
+    </header>
+    <div class="slider">
+        <ul>
+            <li class="mensaje atajo">
+                <img src="img/Imagen1.jpg" alt="">
+                <p>Les Damos una Cordial Bienvenida...!</p>
+            </li>
+            <li class="mensaje">
+                <img src="img/Imagen2.jpg" alt="">
+                <p>Disfruta de la Carrera de Producción Agropecuaria</p>
+            </li>
+            <li class="mensaje atajo">
+                <img src="img/Imagen3.jpg" alt="">
+                <p>Producción Agropecuaria tu Mejor Opción</p>
+            </li>
+            <li class="mensaje atajo">
+                <img src="img/Imagen4.jpg" alt="">
+                <p>Visite las Diferentes Opciones sobre la Carerra</p>
+            </li>
+        </ul>
+    </div>
+    <footer class="pie">
+        <p>IES José Carlos Mariátegui &copy; 2020.</p>
+        <div class="iconos iconos2">
+            <span class="icon-home-outline"></span>    
+            <p>Av. Andrés Avelino Cáceres S/N Samegua - Moquegua</p>
+        </div>
+        <div class="iconos iconos2">
+            <span class="icon-phone"></span>
+            <p>Teléfono: (053) 462091</p>
+        </div>
+        <div class="iconos iconos2">
+            <span class="icon-mail"></span>
+            <p>E-mail: iestjcm@hotmail.com</p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
